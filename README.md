@@ -9,7 +9,8 @@ When I'm coding and suddenly "pingg... pingg, pingg", someone writes to me on me
 ## Quick install
 
 1. Download zip from [here](https://github.com/munkacsimark/hunglish-text-converter/releases/latest) and unzip it.
-2. From unzipped folder copy `hunglish text converter.workflow` to `/Users/<username>/Library/Services`. (⚠️ change the "username" to yours)
+2. From unzipped folder copy `hunglish text converter.workflow` to `/Users/<username>/Library/Services` (change the `<username>` to yours).   
+  2.1. if `Library` folder isn't visible try `cmd`+`shift`+`.`  
 3. Calm down and use it. 🌈
 
 ## Contribute or "prouser" install
