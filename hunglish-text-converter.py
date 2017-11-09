@@ -14,6 +14,7 @@ char_dict = {
 	"-": "ü", "_": "Ü",
 	"\\": "ű", "|": "Ű",
 	"y": "z", "Y": "Z",
+	"z": "y", "Z": "Y",
 	"/": "-",
 	"?": "_",
 	"<": "?",
@@ -25,10 +26,15 @@ char_dict = {
 	"œ": "@",
 	"‹": "#",
 	"¯": "*",
-	"^": "/"
+	"^": "/",
+	"æ": "^"
 }
 
 for line in sys.stdin:
-	for key in char_dict:
-		line = line.replace(key, char_dict[key])
-	sys.stdout.write(line)
+	new_line = ''
+	for char in line:
+		if (char in char_dict):
+			new_line += char_dict[char]
+		else:
+			new_line += char
+	sys.stdout.write(new_line)
