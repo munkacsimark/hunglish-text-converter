@@ -76,6 +76,7 @@ char_dict = {
 	"\\": "ű", "|": "Ű",
 	"y": "z", "Y": "Z",
 	"z": "y", "Z": "Y",
+	"*": "(", "(": ")",
 	"/": "-",
 	"?": "_",
 	"&lt;": "?",
@@ -211,7 +212,7 @@ for line in sys.stdin:
 				<key>isViewVisible</key>
 				<true/>
 				<key>location</key>
-				<string>309.000000:681.000000</string>
+				<string>309.000000:605.000000</string>
 				<key>nibPath</key>
 				<string>/System/Library/Automator/Run Shell Script.action/Contents/Resources/English.lproj/main.nib</string>
 			</dict>
